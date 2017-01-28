@@ -1,0 +1,28 @@
+.parent {
+  	width: 500px; 
+  	height: 400px;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.child {
+  	width: 100%;
+  	height: 100%;
+  	background-image: url("../img/zombie.jpg");
+  	background-position: center;
+  	background-size: cover;
+	transition: 1s all ease-in;
+	
+	}
+
+.child:hover  {
+  	transform: scale(1.5);
+}
+/*
+
+span:hover {
+	color: red;
+	font-size: 35px;
+	text-align: center;
+}*/
