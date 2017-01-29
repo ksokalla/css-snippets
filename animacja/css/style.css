@@ -10,7 +10,7 @@ body {
 .curtain {
 	height: 50%;
 	width: 100%;
-	animation: curtain 1s 1;
+	animation: curtain 1s 1	;
 }
 
 .top {
