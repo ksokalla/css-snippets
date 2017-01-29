@@ -1,0 +1,79 @@
+body {
+	background-color: cadetblue;
+	margin: 0;
+	}
+
+#outer-container {
+	width: 100%;
+	height: 100vh;
+}
+
+#container {
+	width: 100px;
+	height: 100px;
+	transform: translate(-50%,-50%);
+	background-color: aliceblue;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	
+}
+
+.inner {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	position: absolute;
+	
+}
+
+#inner1 {
+	top: 0;
+	left: 0;
+	animation: load-one;
+		
+}
+
+#inner2 {
+	right:0;
+	bottom: 0;
+	animation: load-two;
+
+}
+/* zrób to w domu*/
+
+@keyframes load-one {
+	0% {
+		
+	}
+	25% {
+		
+	}
+	50% {
+		
+	}
+	75% {
+		
+	}
+	100% {
+		
+	}
+}
+
+@keyframes load-two {
+	0% {
+		
+	}
+	25% {
+		
+	}
+	50% {
+		
+	}
+	75% {
+		
+	}
+	100% {
+		
+	}
+}
