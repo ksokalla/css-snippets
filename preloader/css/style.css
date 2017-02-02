@@ -12,7 +12,7 @@ body {
 	width: 100px;
 	height: 100px;
 	transform: translate(-50%,-50%);
-	background-color: aliceblue;
+	background-color: cadetblue;
 	left: 50%;
 	top: 50%;
 	position: absolute;
@@ -22,7 +22,7 @@ body {
 .inner {
 	width: 30px;
 	height: 30px;
-	background-color: red;
+	background-color: white;
 	position: absolute;
 	
 }
@@ -31,6 +31,10 @@ body {
 	top: 0;
 	left: 0;
 	animation: load-one;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+		
 		
 }
 
@@ -38,42 +42,88 @@ body {
 	right:0;
 	bottom: 0;
 	animation: load-two;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 
 }
-/* zrób to w domu*/
 
 @keyframes load-one {
 	0% {
+		top: 0;
+		left: 0;
+		width: 30px;
+		height: 30px;
+		transform: rotate(0deg);
+		
 		
 	}
 	25% {
-		
+		transform: rotate(-90deg);
+		top: 0;
+		left: 70px;
+		width: 15px;
+		height: 15px;
 	}
 	50% {
+		transform: rotate(-180deg);
+		top: 70px;
+		left: 70px;
+		width: 30px;
+		height: 30px;
 		
 	}
 	75% {
-		
+		transform: rotate(-270deg);
+		top: 70px;
+		left: 0px;
+		width: 15px;
+		height: 15px;
 	}
 	100% {
-		
+		transform: rotate(-360deg);
+		top: 0;
+		left: 0;
+		width: 30px;
+		height: 30px;
 	}
 }
 
 @keyframes load-two {
 	0% {
+		right: 0;
+		bottom: 0;
+		width: 30px;
+		height: 30px;
+		transform: rotate(0deg);
 		
 	}
 	25% {
-		
+		transform: rotate(-90deg);
+		right: 70px;
+		bottom: 0;
+		width: 15px;
+		height: 15px;
 	}
 	50% {
-		
+		transform: rotate(-180deg);
+		right: 70px;
+		bottom: 70px;
+		width: 30px;
+		height: 30px;
 	}
 	75% {
-		
+		transform: rotate(-270deg);
+		right: 0px;
+		bottom: 70px;
+		width: 15px;
+		height: 15px;
 	}
 	100% {
-		
+		transform: rotate(-360deg);
+		right: 0;
+		bottom: 0;
+		width: 30px;
+		height: 30px;
 	}
 }
